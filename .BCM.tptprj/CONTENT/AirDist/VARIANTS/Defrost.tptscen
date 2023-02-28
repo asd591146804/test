@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario_ts id="35"
+             name="Defrost"
+             uuid="11805b62-ad32-4da9-984f-65e1236f688e">
+ <ts_embeddedsignal channel="Distribution_Request"
+                    data_type="double"
+                    endtime="10000001us"
+                    startTime="0us"
+                    time="0us,1s,2s,10s"
+                    value="eJxjYEAGH+wZ0AAAFS8BMA=="/>
+</scenario_ts>

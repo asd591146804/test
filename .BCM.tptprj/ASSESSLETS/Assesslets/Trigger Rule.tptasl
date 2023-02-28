@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assesslet all-testcases-selected="true"
+           hash-uptodate="false"
+           id="24"
+           name="Trigger Rule"
+           section="ed1f4209-8e2d-4150-925c-6b4ce9cfaa89"
+           type="TriggerRuleType"
+           uuid="79f0caf5-21f5-44ff-a19a-0128bc6438b9"
+           verbose="true">
+ <assesslet_triggerrule abortExpression=""
+                        elseExpression=""
+                        errorIfNoMatch="false"
+                        ifExpression=""
+                        isShowStateInfo="false"
+                        stopExpression=""
+                        stopExpressionTime=""
+                        thenExpression=""
+                        thenExpressionAdditional="ALWAYS_TRUE_AS_LONG_AS_IF_IS_TRUE"
+                        thenExpressionAfterSecs="0"
+                        thenExpressionBeforeSecs="0"/>
+</assesslet>

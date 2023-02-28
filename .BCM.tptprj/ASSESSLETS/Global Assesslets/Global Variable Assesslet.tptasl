@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assesslet disabled="true"
+           hash-uptodate="false"
+           id="3"
+           name="Global Variable Assesslet"
+           no-selected-testcases="true"
+           section="ed1f4209-8e2d-4150-925c-6b4ce9cfaa89"
+           type="GlobalVariableType"
+           uuid="8b92a0a4-a42c-4399-975e-7b239a721728">
+ <assesslet_var_global/>
+</assesslet>

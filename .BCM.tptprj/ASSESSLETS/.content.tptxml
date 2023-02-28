@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assesslets default-section="ed1f4209-8e2d-4150-925c-6b4ce9cfaa89"
+            normalize-vars-with-time-unit="false">
+ <ref path="a349f03b-bae6-46c4-b8d9-48dc45cb6288"/>
+ <ref path="8a31e358-171e-4873-be46-80141058710f"/>
+ <ref path="de3b6565-af64-4400-82ce-3ec92d0dec42"/>
+</assesslets>

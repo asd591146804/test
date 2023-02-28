@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessletgroup id="9"
+                name="Signals"
+                uuid="28eebc0a-6ee7-400e-a814-07833e027474">
+ <ref path="46db8bff-3144-4b84-9d65-eb3f6452096b"/>
+ <ref path="524fe907-42c1-4ea3-a7d5-49479c3e4de9"/>
+ <ref path="24a26613-6682-4aab-9a68-7bd9542aa9a1"/>
+ <ref path="810a0aef-e3b0-4fcf-9812-a9696a993e31"/>
+ <ref path="3fbfeaaf-0116-4c5a-9254-2f6493037d11"/>
+ <ref path="3f20f36f-a88d-4859-87d8-8af5217c6b18"/>
+ <ref path="f17f0437-8eb0-4a61-8fde-71055e1746b2"/>
+</assessletgroup>

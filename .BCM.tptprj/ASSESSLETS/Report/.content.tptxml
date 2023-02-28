@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessletgroup id="4"
+                name="Report"
+                uuid="de3b6565-af64-4400-82ce-3ec92d0dec42">
+ <ref path="ea055fde-feec-468c-90ec-e3c3f8874a0e"/>
+ <ref path="28eebc0a-6ee7-400e-a814-07833e027474"/>
+ <ref path="ed1f4209-8e2d-4150-925c-6b4ce9cfaa89"/>
+</assessletgroup>

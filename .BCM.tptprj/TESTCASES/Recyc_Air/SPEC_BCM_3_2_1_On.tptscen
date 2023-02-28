@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario_tp hash-uptodate="false,false,false"
+             id="81"
+             name="SPEC_BCM_3_2_1_On"
+             uuid="aa12de7b-da1d-4aa1-9420-1d446f13fb23">
+ <st scenId="2e2ffaba-0dc2-4277-a381-8d340f3a9604"/>
+ <st scenId="27a985fe-e9a1-4a0c-b04b-05720b8b80c0"/>
+ <st scenId="f14f4fbf-297c-43bb-92c6-aedd8ff80677"/>
+ <st scenId="eefb6a3a-0b02-4537-a218-04dd13160cb9"/>
+ <st scenId="9b5ddbc8-7a23-43e6-9ade-734ecb0c7a6d"/>
+ <st scenId="c50095b8-c9d7-4a63-8a00-63599831fab4"/>
+ <st scenId="ab581bd8-68c4-49d5-8276-13f1ffa455d6"/>
+ <tr specId="ac54ddc2-c494-40bf-94b2-8350bf399f8f"/>
+ <tr specId="5b89c897-c3ba-498b-86b3-ee53eb70d329"/>
+ <tr specId="586c265f-0132-4837-964a-75c1191bb6c9"/>
+ <tr specId="30770662-ed97-4e1f-b5c8-cb2610290158"/>
+ <tr specId="1c8a2fc5-9937-4b88-8fce-90e8d7554a45"/>
+ <tr specId="39f20425-c61a-453b-9886-4322fa6d15f1"/>
+ <tr specId="98429d90-ae2a-47ce-aef9-29eb4c2a8188"/>
+ <tr specId="5e9b1fdb-3549-4bfa-bb8e-0f815e174ec9"/>
+ <tr specId="167e98b2-a9b9-4140-81b4-d67fd910f878"/>
+ <tr specId="f70548ef-8674-490d-9698-212acd3cca8d"/>
+ <tr specId="6efac747-9226-4fc0-bc0a-93da4fb5be4c"/>
+</scenario_tp>

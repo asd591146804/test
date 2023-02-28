@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<units>
+ <unit-def binexp="-1"
+           decexp="-1"
+           denom="9"
+           name="°"
+           piexp="1"
+           symbol="deg">
+  <unit-deps>
+   <unit-dep symbol="rad"
+             value="1"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="g"
+           prefix="m"
+           symbol="g">
+  <unit-deps>
+   <unit-dep symbol="kg"
+             value="1"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="mg"
+           prefix="u"
+           symbol="mg">
+  <unit-deps>
+   <unit-dep symbol="kg"
+             value="1"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="mg/s"
+           prefix="u"
+           symbol="mg_s">
+  <unit-deps>
+   <unit-dep symbol="kg"
+             value="1"/>
+   <unit-dep symbol="s"
+             value="-1"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="kg*m"
+           symbol="kg_m">
+  <unit-deps>
+   <unit-dep symbol="kg"
+             value="1"/>
+   <unit-dep symbol="m"
+             value="1"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="kg/m3"
+           symbol="kg_m3">
+  <unit-deps>
+   <unit-dep symbol="kg"
+             value="1"/>
+   <unit-dep symbol="m"
+             value="-3"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def binexp="-2"
+           decexp="-2"
+           denom="9"
+           name="kg/h"
+           symbol="kg_h">
+  <unit-deps>
+   <unit-dep symbol="kg"
+             value="1"/>
+   <unit-dep symbol="s"
+             value="-1"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="m/s"
+           symbol="m_s">
+  <unit-deps>
+   <unit-dep symbol="m"
+             value="1"/>
+   <unit-dep symbol="s"
+             value="-1"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="m/s2"
+           symbol="m_s2">
+  <unit-deps>
+   <unit-dep symbol="m"
+             value="1"/>
+   <unit-dep symbol="s"
+             value="-2"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def binexp="-1"
+           denom="9"
+           name="km/h"
+           nom="5"
+           symbol="km_h">
+  <unit-deps>
+   <unit-dep symbol="m"
+             value="1"/>
+   <unit-dep symbol="s"
+             value="-1"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="Hz"
+           symbol="Hz">
+  <unit-deps>
+   <unit-dep symbol="s"
+             value="-1"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def binexp="2"
+           decexp="2"
+           name="Ah"
+           nom="9"
+           symbol="Ah">
+  <unit-deps>
+   <unit-dep symbol="s"
+             value="1"/>
+   <unit-dep symbol="A"
+             value="1"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="As"
+           symbol="As">
+  <unit-deps>
+   <unit-dep symbol="s"
+             value="1"/>
+   <unit-dep symbol="A"
+             value="1"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="A/s"
+           symbol="A_s">
+  <unit-deps>
+   <unit-dep symbol="s"
+             value="-1"/>
+   <unit-dep symbol="A"
+             value="1"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="N"
+           symbol="N">
+  <unit-deps>
+   <unit-dep symbol="kg"
+             value="1"/>
+   <unit-dep symbol="m"
+             value="1"/>
+   <unit-dep symbol="s"
+             value="-2"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="Nm"
+           symbol="Nm">
+  <unit-deps>
+   <unit-dep symbol="kg"
+             value="1"/>
+   <unit-dep symbol="m"
+             value="2"/>
+   <unit-dep symbol="s"
+             value="-2"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="N/s"
+           symbol="N_s">
+  <unit-deps>
+   <unit-dep symbol="kg"
+             value="1"/>
+   <unit-dep symbol="m"
+             value="1"/>
+   <unit-dep symbol="s"
+             value="-3"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="Nm/s"
+           symbol="Nm_s">
+  <unit-deps>
+   <unit-dep symbol="kg"
+             value="1"/>
+   <unit-dep symbol="m"
+             value="2"/>
+   <unit-dep symbol="s"
+             value="-3"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="Pa"
+           symbol="Pa">
+  <unit-deps>
+   <unit-dep symbol="kg"
+             value="1"/>
+   <unit-dep symbol="m"
+             value="-1"/>
+   <unit-dep symbol="s"
+             value="-2"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="J"
+           symbol="J">
+  <unit-deps>
+   <unit-dep symbol="kg"
+             value="1"/>
+   <unit-dep symbol="m"
+             value="2"/>
+   <unit-dep symbol="s"
+             value="-2"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="W"
+           symbol="W">
+  <unit-deps>
+   <unit-dep symbol="kg"
+             value="1"/>
+   <unit-dep symbol="m"
+             value="2"/>
+   <unit-dep symbol="s"
+             value="-3"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="Ws"
+           symbol="Ws">
+  <unit-deps>
+   <unit-dep symbol="kg"
+             value="1"/>
+   <unit-dep symbol="m"
+             value="2"/>
+   <unit-dep symbol="s"
+             value="-2"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="C"
+           symbol="C">
+  <unit-deps>
+   <unit-dep symbol="s"
+             value="1"/>
+   <unit-dep symbol="A"
+             value="1"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="V"
+           symbol="V">
+  <unit-deps>
+   <unit-dep symbol="kg"
+             value="1"/>
+   <unit-dep symbol="m"
+             value="2"/>
+   <unit-dep symbol="s"
+             value="-3"/>
+   <unit-dep symbol="A"
+             value="-1"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="F"
+           symbol="F">
+  <unit-deps>
+   <unit-dep symbol="kg"
+             value="-1"/>
+   <unit-dep symbol="m"
+             value="-2"/>
+   <unit-dep symbol="s"
+             value="4"/>
+   <unit-dep symbol="A"
+             value="2"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="Ohm"
+           symbol="Ohm">
+  <unit-deps>
+   <unit-dep symbol="kg"
+             value="1"/>
+   <unit-dep symbol="m"
+             value="2"/>
+   <unit-dep symbol="s"
+             value="-3"/>
+   <unit-dep symbol="A"
+             value="-2"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="S"
+           symbol="S">
+  <unit-deps>
+   <unit-dep symbol="kg"
+             value="-1"/>
+   <unit-dep symbol="m"
+             value="-2"/>
+   <unit-dep symbol="s"
+             value="3"/>
+   <unit-dep symbol="A"
+             value="2"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="°C"
+           offset="273.15"
+           symbol="celsius">
+  <unit-deps>
+   <unit-dep symbol="K"
+             value="1"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="bit"
+           symbol="bit"/>
+ <unit-def binexp="3"
+           name="B"
+           symbol="B">
+  <unit-deps>
+   <unit-dep symbol="bit"
+             value="1"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="%"
+           symbol="percent"/>
+ <unit-def name="%/s"
+           symbol="percent_s">
+  <unit-deps>
+   <unit-dep symbol="percent"
+             value="1"/>
+   <unit-dep symbol="s"
+             value="-1"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="%/Nm"
+           symbol="percent_Nm">
+  <unit-deps>
+   <unit-dep symbol="percent"
+             value="1"/>
+   <unit-dep symbol="kg"
+             value="-1"/>
+   <unit-dep symbol="m"
+             value="-2"/>
+   <unit-dep symbol="s"
+             value="2"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="l"
+           prefix="m"
+           symbol="_l">
+  <unit-deps>
+   <unit-dep symbol="m"
+             value="3"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def binexp="-1"
+           decexp="-4"
+           denom="3"
+           name="l/min"
+           symbol="_l_min">
+  <unit-deps>
+   <unit-dep symbol="m"
+             value="3"/>
+   <unit-dep symbol="s"
+             value="-1"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="rad/s"
+           symbol="rad_s">
+  <unit-deps>
+   <unit-dep symbol="s"
+             value="-1"/>
+   <unit-dep symbol="rad"
+             value="1"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="1/s"
+           symbol="_1_s">
+  <unit-deps>
+   <unit-dep symbol="s"
+             value="-1"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def name="1/s2"
+           symbol="_1_s2">
+  <unit-deps>
+   <unit-dep symbol="s"
+             value="-2"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def binexp="-1"
+           decexp="-1"
+           denom="3"
+           name="rpm"
+           symbol="rpm">
+  <unit-deps>
+   <unit-dep symbol="s"
+             value="-1"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def binexp="-1"
+           decexp="-1"
+           denom="3"
+           name="U/min"
+           symbol="U_min">
+  <unit-deps>
+   <unit-dep symbol="s"
+             value="-1"/>
+  </unit-deps>
+ </unit-def>
+ <unit-def binexp="-1"
+           decexp="-1"
+           denom="3"
+           name="U/(min*s)"
+           symbol="U_min_s">
+  <unit-deps>
+   <unit-dep symbol="s"
+             value="-2"/>
+  </unit-deps>
+ </unit-def>
+</units>

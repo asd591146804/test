@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario_group id="66"
+                name="AirDist"
+                uuid="383a1e68-8f06-4af9-a887-8af0ac8ead6d">
+ <ref path="b06a5530-709a-4247-b827-d3f1cd290856"/>
+ <ref path="ed6361af-a649-412b-abdd-55dd06b3f0a5"/>
+ <ref path="e6f0404a-e1ba-4b4c-bdbb-214da6890227"/>
+ <ref path="31f419b0-ad9f-42b9-8c06-ad6f26f9f1a1"/>
+</scenario_group>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assesslet all-testcases-selected="true"
+           hash-uptodate="false"
+           id="16"
+           name="Parameters"
+           section="46db8bff-3144-4b84-9d65-eb3f6452096b"
+           type="SignalTableReportAssessletType"
+           uuid="f17f0437-8eb0-4a61-8fde-71055e1746b2">
+ <assesslet_signalTableReport>
+  <reportAssessletFilter_signalTable showParameters="true"/>
+ </assesslet_signalTableReport>
+</assesslet>

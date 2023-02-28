@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario_ts id="15"
+             name="Recyc_on"
+             uuid="ab581bd8-68c4-49d5-8276-13f1ffa455d6">
+ <ts_setchannel channel="RecycleAir_On"
+                continuous="true"
+                source="0"/>
+</scenario_ts>

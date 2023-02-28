@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessletgroup id="5"
+                name="Test Information"
+                uuid="ea055fde-feec-468c-90ec-e3c3f8874a0e">
+ <ref path="21703924-5798-40fc-a927-e0635f64d31d"/>
+ <ref path="ef6410a3-7a78-4700-85b8-bda404a2db82"/>
+ <ref path="64968f5b-3b09-4d5d-8977-0420f9576306"/>
+</assessletgroup>

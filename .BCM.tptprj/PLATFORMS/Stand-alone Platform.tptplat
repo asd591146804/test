@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<platformconfig name="Stand-alone Platform"
+                type="com.piketec.tpt.runtime.StandalonePlatform"
+                uuid="428605d4-0139-4594-ad81-e8fb221f1c9d">
+ <platformspecific key="history"
+                   value="100"/>
+ <platformspecific key="postplatformscript"
+                   value=""/>
+ <platformspecific key="preplatformscript"
+                   value=""/>
+ <platformspecific key="readparamsonlyfirst"
+                   value="false"/>
+ <platformspecific key="stepsize"
+                   value="10000"/>
+ <platformspecific key="timeout"
+                   value="60010000"/>
+</platformconfig>

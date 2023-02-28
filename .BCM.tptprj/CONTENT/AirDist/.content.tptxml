@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testlet id="4"
+         mainGrp="52526955-61a0-4b4e-b11d-72a43614a552"
+         name="AirDist"
+         posX="190"
+         posY="310"
+         uuid="a8cebdfd-bc12-4ac7-ba12-9aee9c1b3166">
+ <testlets/>
+ <ref path="VARIANTS"/>
+ <ref path="testlet.tptsettings"
+      weak="true"/>
+</testlet>

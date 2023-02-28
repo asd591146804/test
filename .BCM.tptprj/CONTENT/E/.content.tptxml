@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testlet id="8"
+         mainGrp="d39dc88f-076d-40c0-9655-ae40a984d7db"
+         name="E"
+         posX="390"
+         posY="70"
+         uuid="73ea3d50-be2e-4884-8ac0-ba2f23974f7f">
+ <testlets/>
+ <ref path="VARIANTS"/>
+ <ref path="testlet.tptsettings"
+      weak="true"/>
+</testlet>

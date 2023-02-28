@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testlet id="7"
+         mainGrp="18860950-fdfe-4944-a67c-d13c21c5ae9e"
+         name="RecycleAir_On"
+         posX="500"
+         posY="450"
+         uuid="a65e055f-3d29-48ea-8f78-2c5d99f1ed23">
+ <testlets/>
+ <ref path="VARIANTS"/>
+ <ref path="testlet.tptsettings"
+      weak="true"/>
+</testlet>

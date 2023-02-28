@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario_group id="0"
+                name="Test Cases"
+                uuid="84eefce7-5c4d-4b90-9e89-543ced78c806">
+ <ref path="89eca589-6f27-4454-8baa-8b45fa7e3231"/>
+ <ref path="5b72144c-d6ed-47c4-8b5f-99aaa18a34dd"/>
+ <ref path="8d65e51e-8f19-4fd2-a2e4-a02ff7890ad8"/>
+ <ref path="e677ef7e-89b2-436b-aabb-3293fff9d37c"/>
+ <ref path="383a1e68-8f06-4af9-a887-8af0ac8ead6d"/>
+</scenario_group>

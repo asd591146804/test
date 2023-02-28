@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tspec IMPORT_ARR_ELEMS_AS_ARR="true"
+       IMPORT_MATH_IN_ASSESSMENT="true"
+       applicationVersion="18"
+       defaultStyleFontSize="normal"
+       filecommentsignalname="filecomment"
+       fileformatversion="32"
+       impactdepth="transitive_closure"
+       mdffastloadthreshold="200"
+       removestructelementpaths="true"
+       tptID="364113953">
+ <header>
+  <idprovider purpose="nextScenarioID">
+   <prefix-next-id next-id="82"
+                   prefix=""/>
+  </idprovider>
+  <idprovider purpose="nextAssessletID">
+   <prefix-next-id next-id="25"
+                   prefix=""/>
+  </idprovider>
+  <testcase-status-type name="In progress"/>
+  <testcase-status-type name="To be reviewed"/>
+  <testcase-status-type name="Stable"/>
+  <declarations>
+   <ref path="DECLARATIONS/units.tptdecl"/>
+   <ref path="DECLARATIONS/channels.tptdecl"/>
+   <ref path="DECLARATIONS/params.tptdecl"/>
+  </declarations>
+  <equivalence-class-sets/>
+  <mapped-object-equivalence-class-sets/>
+  <ref path="MAPPINGS"/>
+ </header>
+ <body>
+  <test_case_attributes>
+   <test_case_attribute copyable="true"
+                        name="Test Specification"/>
+   <test_case_attribute copyable="true"
+                        name="Preconditions"/>
+   <test_case_attribute copyable="true"
+                        name="Pass Conditions"/>
+  </test_case_attributes>
+  <ref path="REQUIREMENTS"/>
+  <ref path="CONTENT"/>
+  <ref path="ASSESSLETS"/>
+ </body>
+ <execspec>
+  <ref path="TESTSETS"/>
+  <ref path="PLATFORMS"/>
+  <ref path="EXECUTIONCONFIGS"/>
+ </execspec>
+ <ref path="tspec.tptsettings"
+      weak="true"/>
+ <extension name="interfaceimportsettings">
+  <settings hideNewInOtherMappings="false"
+            importRenameToMapping="false"
+            importValuesToInitialValues="false"
+            mappingName="Interface Import"
+            rowFilterOptions="4095"
+            sync-method="external">
+   <hiddenColumn item="GROUP"/>
+   <hiddenColumn item="TL_Logging"/>
+   <hiddenColumn item="Block_Path"/>
+   <hiddenColumn item="RECORD"/>
+   <hiddenColumn item="Port_Number"/>
+   <hiddenColumn item="Log_Name"/>
+   <hiddenColumn item="Log_Data_Struct_Name"/>
+   <hiddenColumn item="DD_Logging"/>
+   <ignoredProperty item="NAME"/>
+  </settings>
+ </extension>
+ <extension name="requirements_importer">
+  <requirements-importer-settings last-imported-document="">
+   <document-data-import-settings document=""
+                                  file="..\requirement.xlsx"
+                                  id-column="ID"
+                                  import-attachments="false"
+                                  is-manual-document-version="false"
+                                  level-column="Object Level"
+                                  type="tablefile"
+                                  type-column="Object Type">
+    <auto-review-column item="A"/>
+    <auto-review-column item="开关"/>
+    <auto-review-column item="default value"/>
+    <table-importer-settings check-for-hyperlinks="false"
+                             range="A1:G57"
+                             range-determination-method="auto-max"
+                             sheet="Sheet1"
+                             skip-empty-rows="true"
+                             type="Excel"
+                             with-header-line="true"/>
+    <text-column item="Object Text"/>
+    <type-assignment source-type="Title"
+                     target-type="heading"/>
+    <type-assignment source-type="Information"
+                     target-type="information"/>
+    <attribute-column item="default value"/>
+    <attribute-column item="A"/>
+    <attribute-column item="开关"/>
+   </document-data-import-settings>
+   <document-data-import-settings document="Requirements document"
+                                  file="..\requirement.xlsx"
+                                  id-column="ID"
+                                  import-attachments="false"
+                                  is-manual-document-version="false"
+                                  level-column="Object Level"
+                                  type="tablefile"
+                                  type-column="Object Type">
+    <table-importer-settings check-for-hyperlinks="false"
+                             range="A1:E53"
+                             range-determination-method="auto-max"
+                             sheet="Sheet1"
+                             skip-empty-rows="true"
+                             type="Excel"
+                             with-header-line="true"/>
+    <text-column item="Object Text"/>
+    <type-assignment source-type="Information"
+                     target-type="information"/>
+    <type-assignment source-type=""/>
+    <type-assignment source-type="Title"
+                     target-type="heading"/>
+   </document-data-import-settings>
+  </requirements-importer-settings>
+ </extension>
+</tspec>

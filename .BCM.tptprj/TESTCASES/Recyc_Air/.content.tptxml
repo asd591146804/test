@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario_group id="73"
+                name="Recyc_Air"
+                uuid="8d65e51e-8f19-4fd2-a2e4-a02ff7890ad8">
+ <ref path="aa12de7b-da1d-4aa1-9420-1d446f13fb23"/>
+ <ref path="ce23a93c-5a81-4977-bccb-8079f80afe9e"/>
+ <ref path="aad5e2e5-7de6-4060-b424-d52838c2a504"/>
+ <ref path="67866642-2066-4374-a453-93de699f9c3d"/>
+</scenario_group>

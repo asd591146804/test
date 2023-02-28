@@ -1,0 +1,2252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rm-module module-path="">
+ <rm-object comment=""
+            document-version=""
+            id="1"
+            importtype="HEADING"
+            indentation-level="1"
+            status="NEW"
+            text="接口说明">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value="1"/>
+  <rm-attribute name="开关"
+                value="on"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;1&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="1"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="2"
+            importtype="HEADING"
+            indentation-level="2"
+            status="NEW"
+            text="Input">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value="1"/>
+  <rm-attribute name="开关"
+                value="on"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;2&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="2"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="3"
+            importtype="INFORMATION"
+            indentation-level="3"
+            status="NEW"
+            text="Distribution_Request(uint8):&#xA;送风请求">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value="2"/>
+  <rm-attribute name="开关"
+                value="on"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;3&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="3"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="4"
+            importtype="INFORMATION"
+            indentation-level="3"
+            status="NEW"
+            text="RecycleAir_On(uint8):&#xA;空气循环打开">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value="2"/>
+  <rm-attribute name="开关"
+                value="on"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;4&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="4"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="5"
+            importtype="INFORMATION"
+            indentation-level="3"
+            status="NEW"
+            text="SetPTemp(double):&#xA;设定温度">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value="2"/>
+  <rm-attribute name="开关"
+                value="on"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;5&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="5"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="6"
+            importtype="INFORMATION"
+            indentation-level="3"
+            status="NEW"
+            text="IntTemp_K(double):&#xA;输入温度（K）">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value="2"/>
+  <rm-attribute name="开关"
+                value="on"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;6&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="6"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="7"
+            importtype="HEADING"
+            indentation-level="2"
+            status="APPROVED"
+            text="Output">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="on"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;7&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="7"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="8"
+            importtype="INFORMATION"
+            indentation-level="3"
+            status="NEW"
+            text="ACAct(Boolean):&#xA;空调动作">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value="3"/>
+  <rm-attribute name="开关"
+                value="on"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;8&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <change attribute-name="Text"
+           date="2022/11/24 17:09:46.481"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;8&quot;"
+           new="ACAct(Boolean):&#xA;空调动作"
+           old="ACAct(Boolean):&#xA;降温动作"
+           reviewed="false"
+           source="Requirement Import Document &quot;&quot;"
+           type="attribute"/>
+   <impact id="8"
+           reviewed="false"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="9"
+            importtype="INFORMATION"
+            indentation-level="3"
+            status="NEW"
+            text="HeaterAct(Boolean):&#xA;加热动作">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value="3"/>
+  <rm-attribute name="开关"
+                value="on"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;9&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="9"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="10"
+            importtype="INFORMATION"
+            indentation-level="3"
+            status="NEW"
+            text="Req_Temp_change(double):&#xA;请求温度改变">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value="4"/>
+  <rm-attribute name="开关"
+                value="on"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;10&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="10"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="11"
+            importtype="INFORMATION"
+            indentation-level="3"
+            status="NEW"
+            text="Blower_Speed_proportion(double):&#xA;风机速率比例">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value="3"/>
+  <rm-attribute name="开关"
+                value="on"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;11&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="11"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="12"
+            importtype="INFORMATION"
+            indentation-level="3"
+            status="NEW"
+            text="AirDistSts：&#xA;空气分配状态">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value="3"/>
+  <rm-attribute name="开关"
+                value="on"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;12&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="12"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="13"
+            importtype="INFORMATION"
+            indentation-level="3"
+            status="NEW"
+            text="Recyc_on：&#xA;空气循环状态">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value="3"/>
+  <rm-attribute name="开关"
+                value="on"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;13&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="13"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="14"
+            importtype="HEADING"
+            indentation-level="2"
+            status="NEW"
+            text="Event">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;14&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="14"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="15"
+            importtype="INFORMATION"
+            indentation-level="3"
+            status="NEW"
+            text="E">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;15&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="15"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="16"
+            importtype="INFORMATION"
+            indentation-level="3"
+            status="NEW"
+            text="DistReq">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;16&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="16"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="17"
+            importtype="INFORMATION"
+            indentation-level="3"
+            status="NEW"
+            text="RecycReq">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;17&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="17"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="18"
+            importtype="HEADING"
+            indentation-level="2"
+            status="NEW"
+            text="Parameter">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;18&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="18"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="19"
+            importtype="INFORMATION"
+            indentation-level="3"
+            status="NEW"
+            text="AirDist_Face:1&#xA;脸部">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;19&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="19"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="20"
+            importtype="INFORMATION"
+            indentation-level="3"
+            status="NEW"
+            text="AirDist_Feet:2&#xA;脚部">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;20&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="20"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="21"
+            importtype="INFORMATION"
+            indentation-level="3"
+            status="NEW"
+            text="AirDist_Defrost:3&#xA;除霜">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;21&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="21"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-1"
+            importtype="INFORMATION"
+            indentation-level="1"
+            status="NEW"
+            text="Heater_AC">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-1&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-1"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-1-1"
+            importtype="INFORMATION"
+            indentation-level="2"
+            status="NEW"
+            text="情形1：">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-1-1&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-1-1"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-1-1-1"
+            importtype="REQUIREMENT"
+            indentation-level="3"
+            status="APPROVED"
+            text="PreCondition：无&#xA;entry：&#xA;HeaterActSts=0；&#xA;ACActSts=false">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-1-1-1&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-1-1-1"
+           type="requirement"/>
+   <impact path="0f6e4bd8-798e-4ee7-8570-214b49a1c532"
+           type="aog"/>
+   <impact path="8c4449ca-eaa7-4758-901e-7603dcab8c12"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="cefacf27-b163-46d6-b69b-1939206ce434"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="eec16c7f-c460-4ac1-9fc0-cdddc3bc70a5"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="e7e04d23-1e94-437c-90d9-d9bab72e0466"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="ff2d0394-eff6-412c-ae66-837651a1a938"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="c1c062a5-4907-4a17-abb7-9619bad306eb"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="c393c144-639c-4df0-a959-35a5822738c0"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="94c1de8f-682b-4f35-b389-ab62f258c9a0"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="acb7d5ac-24fc-4fcb-8749-4e3c71073f6d"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="14957cb1-0a4e-4b99-80d8-496975ea839b"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="5e010bf8-6f4d-44c2-9218-764c421ed2dc"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-1-2"
+            importtype="INFORMATION"
+            indentation-level="2"
+            status="NEW"
+            text="情形2：">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-1-2&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-1-2"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-1-2-1"
+            importtype="REQUIREMENT"
+            indentation-level="3"
+            status="APPROVED"
+            text="PreCondition:H_offAC_off&#xA;If:&#xA;SetPTemp-IntTemp&gt;0.5&#xA;Then:&#xA;entry:ACActSts=true">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-1-2-1&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-1-2-1"
+           type="requirement"/>
+   <impact path="0f6e4bd8-798e-4ee7-8570-214b49a1c532"
+           type="aog"/>
+   <impact path="8c4449ca-eaa7-4758-901e-7603dcab8c12"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="cefacf27-b163-46d6-b69b-1939206ce434"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="eec16c7f-c460-4ac1-9fc0-cdddc3bc70a5"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="e7e04d23-1e94-437c-90d9-d9bab72e0466"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="ff2d0394-eff6-412c-ae66-837651a1a938"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="c1c062a5-4907-4a17-abb7-9619bad306eb"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="c393c144-639c-4df0-a959-35a5822738c0"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="94c1de8f-682b-4f35-b389-ab62f258c9a0"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="acb7d5ac-24fc-4fcb-8749-4e3c71073f6d"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="14957cb1-0a4e-4b99-80d8-496975ea839b"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="5e010bf8-6f4d-44c2-9218-764c421ed2dc"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-1-2-2"
+            importtype="REQUIREMENT"
+            indentation-level="3"
+            status="APPROVED"
+            text="PreCondition:H_offAC_off&#xA;If:&#xA;SetPTemp-IntTemp&lt;-0.5&#xA;Then:&#xA;entry:ACActSts=true">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-1-2-2&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-1-2-2"
+           type="requirement"/>
+   <impact path="0f6e4bd8-798e-4ee7-8570-214b49a1c532"
+           type="aog"/>
+   <impact path="8c4449ca-eaa7-4758-901e-7603dcab8c12"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="cefacf27-b163-46d6-b69b-1939206ce434"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="eec16c7f-c460-4ac1-9fc0-cdddc3bc70a5"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="e7e04d23-1e94-437c-90d9-d9bab72e0466"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="ff2d0394-eff6-412c-ae66-837651a1a938"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="c1c062a5-4907-4a17-abb7-9619bad306eb"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="c393c144-639c-4df0-a959-35a5822738c0"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="94c1de8f-682b-4f35-b389-ab62f258c9a0"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="acb7d5ac-24fc-4fcb-8749-4e3c71073f6d"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="14957cb1-0a4e-4b99-80d8-496975ea839b"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="5e010bf8-6f4d-44c2-9218-764c421ed2dc"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-1-3"
+            importtype="INFORMATION"
+            indentation-level="2"
+            status="NEW"
+            text="情形3：">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-1-3&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-1-3"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-1-3-1"
+            importtype="REQUIREMENT"
+            indentation-level="3"
+            status="APPROVED"
+            text="PreCondition:HeaterAct&#xA;If:&#xA;SetPTemp-IntTemp&lt;=0.5&#xA;Then:&#xA;entry:&#xA;ACActSts=false;&#xA;HeaterActSts=0">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-1-3-1&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-1-3-1"
+           type="requirement"/>
+   <impact path="0f6e4bd8-798e-4ee7-8570-214b49a1c532"
+           type="aog"/>
+   <impact path="8c4449ca-eaa7-4758-901e-7603dcab8c12"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="cefacf27-b163-46d6-b69b-1939206ce434"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="eec16c7f-c460-4ac1-9fc0-cdddc3bc70a5"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="e7e04d23-1e94-437c-90d9-d9bab72e0466"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="ff2d0394-eff6-412c-ae66-837651a1a938"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="c1c062a5-4907-4a17-abb7-9619bad306eb"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="c393c144-639c-4df0-a959-35a5822738c0"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="94c1de8f-682b-4f35-b389-ab62f258c9a0"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="acb7d5ac-24fc-4fcb-8749-4e3c71073f6d"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="14957cb1-0a4e-4b99-80d8-496975ea839b"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="5e010bf8-6f4d-44c2-9218-764c421ed2dc"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-1-4"
+            importtype="INFORMATION"
+            indentation-level="2"
+            status="NEW"
+            text="情形4：">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-1-4&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-1-4"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-1-4-1"
+            importtype="REQUIREMENT"
+            indentation-level="3"
+            status="APPROVED"
+            text="PreCondition:ACAct&#xA;If:&#xA;SetPTemp-IntTemp&gt;=-0.5&#xA;Then:&#xA;entry:&#xA;ACActSts=false;&#xA;HeaterActSts=0">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-1-4-1&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-1-4-1"
+           type="requirement"/>
+   <impact path="0f6e4bd8-798e-4ee7-8570-214b49a1c532"
+           type="aog"/>
+   <impact path="8c4449ca-eaa7-4758-901e-7603dcab8c12"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="cefacf27-b163-46d6-b69b-1939206ce434"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="eec16c7f-c460-4ac1-9fc0-cdddc3bc70a5"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="e7e04d23-1e94-437c-90d9-d9bab72e0466"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="ff2d0394-eff6-412c-ae66-837651a1a938"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="c1c062a5-4907-4a17-abb7-9619bad306eb"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="c393c144-639c-4df0-a959-35a5822738c0"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="94c1de8f-682b-4f35-b389-ab62f258c9a0"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="acb7d5ac-24fc-4fcb-8749-4e3c71073f6d"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="14957cb1-0a4e-4b99-80d8-496975ea839b"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="5e010bf8-6f4d-44c2-9218-764c421ed2dc"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-2"
+            importtype="INFORMATION"
+            indentation-level="1"
+            status="NEW"
+            text="AirDist">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-2&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-2"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-2-1"
+            importtype="INFORMATION"
+            indentation-level="2"
+            status="NEW"
+            text="情形1：">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-2-1&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-2-1"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-2-1-1"
+            importtype="REQUIREMENT"
+            indentation-level="3"
+            status="APPROVED"
+            text="PreCondition：无&#xA;entry：&#xA;AirDistSts=AirDist_Face">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-2-1-1&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-2-1-1"
+           type="requirement"/>
+   <impact path="9fb2c008-bd6d-4ec0-a6f9-0849552045fa"
+           type="aog"/>
+   <impact path="b06a5530-709a-4247-b827-d3f1cd290856"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="ed6361af-a649-412b-abdd-55dd06b3f0a5"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="e6f0404a-e1ba-4b4c-bdbb-214da6890227"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="31f419b0-ad9f-42b9-8c06-ad6f26f9f1a1"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-2-2"
+            importtype="INFORMATION"
+            indentation-level="2"
+            status="NEW"
+            text="情形2：">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-2-2&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-2-2"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-2-2-1"
+            importtype="REQUIREMENT"
+            indentation-level="3"
+            status="APPROVED"
+            text="PreCondition:Face&#xA;If:&#xA;DistReq&#xA;Then:&#xA;entry:AirDistSts=AirDist_Feet">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-2-2-1&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-2-2-1"
+           type="requirement"/>
+   <impact path="9fb2c008-bd6d-4ec0-a6f9-0849552045fa"
+           type="aog"/>
+   <impact path="b06a5530-709a-4247-b827-d3f1cd290856"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="ed6361af-a649-412b-abdd-55dd06b3f0a5"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="e6f0404a-e1ba-4b4c-bdbb-214da6890227"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="31f419b0-ad9f-42b9-8c06-ad6f26f9f1a1"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-2-3"
+            importtype="INFORMATION"
+            indentation-level="2"
+            status="NEW"
+            text="情形3：">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-2-3&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-2-3"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-2-3-1"
+            importtype="REQUIREMENT"
+            indentation-level="3"
+            status="APPROVED"
+            text="PreCondition:Feet&#xA;If:&#xA;DistReq&#xA;Then:&#xA;entry:AirDistSts=AirDist_Defrost">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-2-3-1&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-2-3-1"
+           type="requirement"/>
+   <impact path="9fb2c008-bd6d-4ec0-a6f9-0849552045fa"
+           type="aog"/>
+   <impact path="b06a5530-709a-4247-b827-d3f1cd290856"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="ed6361af-a649-412b-abdd-55dd06b3f0a5"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="e6f0404a-e1ba-4b4c-bdbb-214da6890227"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="31f419b0-ad9f-42b9-8c06-ad6f26f9f1a1"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-2-4"
+            importtype="INFORMATION"
+            indentation-level="2"
+            status="NEW"
+            text="情形4：">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-2-4&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-2-4"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-2-4-1"
+            importtype="REQUIREMENT"
+            indentation-level="3"
+            status="APPROVED"
+            text="PreCondition:Defrost&#xA;If:&#xA;DistReq&#xA;Then:&#xA;entry:AirDistSts=AirDist_Face">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value="off"/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-2-4-1&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-2-4-1"
+           type="requirement"/>
+   <impact path="9fb2c008-bd6d-4ec0-a6f9-0849552045fa"
+           type="aog"/>
+   <impact path="b06a5530-709a-4247-b827-d3f1cd290856"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="ed6361af-a649-412b-abdd-55dd06b3f0a5"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="e6f0404a-e1ba-4b4c-bdbb-214da6890227"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="31f419b0-ad9f-42b9-8c06-ad6f26f9f1a1"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-3"
+            importtype="INFORMATION"
+            indentation-level="1"
+            status="NEW"
+            text="Recyc_Air">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value=""/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-3&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-3"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-3-1"
+            importtype="INFORMATION"
+            indentation-level="2"
+            status="NEW"
+            text="情形1：">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value=""/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-3-1&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-3-1"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-3-1-1"
+            importtype="REQUIREMENT"
+            indentation-level="3"
+            status="APPROVED"
+            text="PreCondition：无&#xA;entry：&#xA;Recyc_on=1">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value="2"/>
+  <rm-attribute name="开关"
+                value=""/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-3-1-1&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-3-1-1"
+           type="requirement"/>
+   <impact path="877301cc-4c9a-4758-bf4a-9505eebdf84e"
+           type="aog"/>
+   <impact path="aa12de7b-da1d-4aa1-9420-1d446f13fb23"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="ce23a93c-5a81-4977-bccb-8079f80afe9e"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="aad5e2e5-7de6-4060-b424-d52838c2a504"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="67866642-2066-4374-a453-93de699f9c3d"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-3-2"
+            importtype="INFORMATION"
+            indentation-level="2"
+            status="NEW"
+            text="情形2：">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value=""/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-3-2&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-3-2"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-3-2-1"
+            importtype="REQUIREMENT"
+            indentation-level="3"
+            status="APPROVED"
+            text="PreCondition:Recyc_on&#xA;If:&#xA;RecycReq&#xA;Then:&#xA;entry:Recyc_on=0">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value="2"/>
+  <rm-attribute name="开关"
+                value=""/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-3-2-1&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-3-2-1"
+           type="requirement"/>
+   <impact path="877301cc-4c9a-4758-bf4a-9505eebdf84e"
+           type="aog"/>
+   <impact path="aa12de7b-da1d-4aa1-9420-1d446f13fb23"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="ce23a93c-5a81-4977-bccb-8079f80afe9e"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="aad5e2e5-7de6-4060-b424-d52838c2a504"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="67866642-2066-4374-a453-93de699f9c3d"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-3-2-2"
+            importtype="REQUIREMENT"
+            indentation-level="3"
+            status="APPROVED"
+            text="PreCondition:Recyc_on&#xA;If:&#xA;en(AirDist.Defrost)&#xA;Then:&#xA;entry:Recyc_on=0">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value="2"/>
+  <rm-attribute name="开关"
+                value=""/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-3-2-2&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-3-2-2"
+           type="requirement"/>
+   <impact path="877301cc-4c9a-4758-bf4a-9505eebdf84e"
+           type="aog"/>
+   <impact path="aa12de7b-da1d-4aa1-9420-1d446f13fb23"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="ce23a93c-5a81-4977-bccb-8079f80afe9e"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="aad5e2e5-7de6-4060-b424-d52838c2a504"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="67866642-2066-4374-a453-93de699f9c3d"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-3-3"
+            importtype="INFORMATION"
+            indentation-level="2"
+            status="NEW"
+            text="情形3：">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value=""/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-3-3&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-3-3"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-3-3-1"
+            importtype="REQUIREMENT"
+            indentation-level="3"
+            status="APPROVED"
+            text="PreCondition:Recyc_off&#xA;If:&#xA;RecycReq&#xA;Then:&#xA;entry:Recyc_on=1">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value="2"/>
+  <rm-attribute name="开关"
+                value=""/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-3-3-1&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-3-3-1"
+           type="requirement"/>
+   <impact path="877301cc-4c9a-4758-bf4a-9505eebdf84e"
+           type="aog"/>
+   <impact path="aa12de7b-da1d-4aa1-9420-1d446f13fb23"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="ce23a93c-5a81-4977-bccb-8079f80afe9e"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="aad5e2e5-7de6-4060-b424-d52838c2a504"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="67866642-2066-4374-a453-93de699f9c3d"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-4"
+            importtype="INFORMATION"
+            indentation-level="1"
+            status="NEW"
+            text="Blower">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value=""/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-4&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-4"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-4-1"
+            importtype="INFORMATION"
+            indentation-level="2"
+            status="NEW"
+            text="function1: setpoint_calc()&#xA;RequiredTemp = SetPTemp-IntTemp&#xA;If:&#xA;RequiredTemp&lt;0&#xA;Then:&#xA;absTempDiff = -RequiredTemp;&#xA;Else:&#xA;absTempDiff = RequiredTemp">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value="2"/>
+  <rm-attribute name="开关"
+                value=""/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-4-1&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-4-1"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-4-2"
+            importtype="INFORMATION"
+            indentation-level="2"
+            status="NEW"
+            text="function2: b = in_temp_range(minTemp,maxTemp)&#xA;b = (absTempDiff&gt;minTemp)&amp;&amp;(absTempDiff&lt;maxTemp)">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value="2"/>
+  <rm-attribute name="开关"
+                value=""/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-4-2&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-4-2"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-4-3"
+            importtype="INFORMATION"
+            indentation-level="2"
+            status="NEW"
+            text="情形1：">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value="2"/>
+  <rm-attribute name="开关"
+                value=""/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-4-3&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-4-3"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-4-3-1"
+            importtype="REQUIREMENT"
+            indentation-level="3"
+            status="APPROVED"
+            text="PreCondition：无&#xA;entry：BlowerOut=0&#xA;du: setpoint_calc()">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value="2"/>
+  <rm-attribute name="开关"
+                value=""/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-4-3-1&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-4-3-1"
+           type="requirement"/>
+   <impact path="0f6e4bd8-798e-4ee7-8570-214b49a1c532"
+           type="aog"/>
+   <impact path="8c4449ca-eaa7-4758-901e-7603dcab8c12"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="cefacf27-b163-46d6-b69b-1939206ce434"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="eec16c7f-c460-4ac1-9fc0-cdddc3bc70a5"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="e7e04d23-1e94-437c-90d9-d9bab72e0466"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="ff2d0394-eff6-412c-ae66-837651a1a938"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="c1c062a5-4907-4a17-abb7-9619bad306eb"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="c393c144-639c-4df0-a959-35a5822738c0"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="94c1de8f-682b-4f35-b389-ab62f258c9a0"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="acb7d5ac-24fc-4fcb-8749-4e3c71073f6d"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="14957cb1-0a4e-4b99-80d8-496975ea839b"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="5e010bf8-6f4d-44c2-9218-764c421ed2dc"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-4-3-2"
+            importtype="REQUIREMENT"
+            indentation-level="3"
+            status="APPROVED"
+            text="PreCondition：Blower_off&#xA;If:&#xA;E(in_temp_range(.5,203))&#xA;Then:&#xA;entry:BlowerOut=0.2&#xA;du:setpoint_calc()&#xA;If&#xA;E(~in(Blower_5))&amp;&amp; in_temp_range(22,200)&#xA;Then&#xA;en:BlowerOut=1.0&#xA;Else if&#xA;E(~in(Blower_4))&amp;&amp; in_temp_range(17,20)&#xA;Then&#xA;en:BlowerOut=0.8&#xA;Else if&#xA;E(~in(Blower_3))&amp;&amp; in_temp_range(12,15)&#xA;Then&#xA;en:BlowerOut=0.6&#xA;Else if&#xA;E(~in(Blower_2))&amp;&amp; in_temp_range(7,10)&#xA;Then&#xA;en:BlowerOut=0.4&#xA;Else&#xA;E(~in(Blower_1))&amp;&amp; in_temp_range(1.5,5)&#xA;Then&#xA;en:BlowerOut=0.2">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value="2"/>
+  <rm-attribute name="开关"
+                value=""/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-4-3-2&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-4-3-2"
+           type="requirement"/>
+   <impact path="0f6e4bd8-798e-4ee7-8570-214b49a1c532"
+           type="aog"/>
+   <impact path="8c4449ca-eaa7-4758-901e-7603dcab8c12"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="cefacf27-b163-46d6-b69b-1939206ce434"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="eec16c7f-c460-4ac1-9fc0-cdddc3bc70a5"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="e7e04d23-1e94-437c-90d9-d9bab72e0466"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="ff2d0394-eff6-412c-ae66-837651a1a938"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="c1c062a5-4907-4a17-abb7-9619bad306eb"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="c393c144-639c-4df0-a959-35a5822738c0"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="94c1de8f-682b-4f35-b389-ab62f258c9a0"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="acb7d5ac-24fc-4fcb-8749-4e3c71073f6d"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="14957cb1-0a4e-4b99-80d8-496975ea839b"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="5e010bf8-6f4d-44c2-9218-764c421ed2dc"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-4-4"
+            importtype="INFORMATION"
+            indentation-level="2"
+            status="NEW"
+            text="情形1：">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value=""/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-4-4&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-4-4"
+           type="requirement"/>
+  </modification>
+ </rm-object>
+ <rm-object comment=""
+            document-version=""
+            id="SPEC-4-4-1"
+            importtype="REQUIREMENT"
+            indentation-level="3"
+            status="APPROVED"
+            text="PreCondition:Blower_on&#xA;If&#xA;E(absTempDiff&gt;203 || absTempDiff&lt;=0.5)&#xA;Then&#xA;entry:BlowerOut=0.0&#xA;du: setpoint_calc()">
+  <rm-attribute name="default value"
+                value=""/>
+  <rm-attribute name="A"
+                value=""/>
+  <rm-attribute name="开关"
+                value=""/>
+  <modification>
+   <change attribute-name="Attributes"
+           date="2022/12/26 13:59:56.613"
+           info="Auto reviewed"
+           name="&lt;b&gt;Requirement&lt;/b&gt; &quot;SPEC-4-4-1&quot;"
+           source="Requirement Import Document &quot;&quot;"
+           type="list">
+    <old-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+    </old-list>
+    <new-list>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;default value&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;A&quot;"/>
+     <item content="&lt;b&gt;Requirement Attribute&lt;/b&gt; &quot;开关&quot;"/>
+    </new-list>
+   </change>
+   <impact id="SPEC-4-4-1"
+           type="requirement"/>
+   <impact path="0f6e4bd8-798e-4ee7-8570-214b49a1c532"
+           type="aog"/>
+   <impact path="8c4449ca-eaa7-4758-901e-7603dcab8c12"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="cefacf27-b163-46d6-b69b-1939206ce434"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="eec16c7f-c460-4ac1-9fc0-cdddc3bc70a5"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="e7e04d23-1e94-437c-90d9-d9bab72e0466"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="ff2d0394-eff6-412c-ae66-837651a1a938"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="c1c062a5-4907-4a17-abb7-9619bad306eb"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="c393c144-639c-4df0-a959-35a5822738c0"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="94c1de8f-682b-4f35-b389-ab62f258c9a0"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="acb7d5ac-24fc-4fcb-8749-4e3c71073f6d"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="14957cb1-0a4e-4b99-80d8-496975ea839b"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+   <impact path="5e010bf8-6f4d-44c2-9218-764c421ed2dc"
+           testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"
+           type="sog"/>
+  </modification>
+ </rm-object>
+</rm-module>

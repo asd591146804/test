@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario_ts id="61"
+             name="Coverage"
+             uuid="118e1019-b1d5-4f78-a3e2-4ca5e15bc6b7">
+ <ts_setchannel channel="E"
+                continuous="true"
+                source="((t / 0.02 + 1E-9 - floor(t / 0.02 + 1E-9)) &gt; 0.5) ? (uint8)1 : (uint8)0"/>
+ <ts_wait time="1s"/>
+ <ts_setchannel channel="E"
+                continuous="true"
+                source="1"/>
+ <ts_wait time="0.02s"/>
+ <ts_setchannel channel="E"
+                continuous="true"
+                source="((t / 0.02 + 1E-9 - floor(t / 0.02 + 1E-9)) &gt; 0.5) ? (uint8)1 : (uint8)0"/>
+ <ts_wait time="7s-2*@"/>
+</scenario_ts>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario_ts id="28"
+             name="absTempDiff_(12,15)"
+             uuid="a8b842d2-f422-4582-b49b-013981fc93b7">
+ <ts_setchannel channel="SetPTemp"
+                continuous="true"
+                source="24"/>
+ <ts_setchannel channel="IntTemp_K"
+                continuous="true"
+                source="37"/>
+</scenario_ts>

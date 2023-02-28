@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assesslet all-testcases-selected="false"
+           hash-uptodate="false"
+           id="22"
+           name="Recyc_Air"
+           section="ed1f4209-8e2d-4150-925c-6b4ce9cfaa89"
+           type="ScriptAssessletType"
+           uuid="877301cc-4c9a-4758-bf4a-9505eebdf84e"
+           verbose="true">
+ <assesslet-selected-testcase uuid-ref="67866642-2066-4374-a453-93de699f9c3d"/>
+ <assesslet-selected-testcase uuid-ref="aad5e2e5-7de6-4060-b424-d52838c2a504"/>
+ <assesslet-selected-testcase uuid-ref="ce23a93c-5a81-4977-bccb-8079f80afe9e"/>
+ <assesslet_script><![CDATA[########################################
+#V2.0
+#Created by Liyue,Polelink
+#2022/11/24
+#Liyue@polelink.com
+########################################
+
+
+during [t<@]:
+  TPT.assertAlways(Recyc_on==0)
+during [t>=@ and t<2*@]:
+  TPT.assertAlways(Recyc_on==1) 
+during [t>=2*@]:
+  during TPT.regexp(^[Recyc_on==1][RecycleAir_On(t)!=RecycleAir_On(t-@)]?):
+      during[RecycleAir_On(t)!=RecycleAir_On(t-@)]:
+        TPT.assertAlways(Recyc_on==0,'一开始满足条件跳转到Recyc_off')
+      otherwise:
+        TPT.assertAlways(Recyc_on==1,'一开始不满足条件没有跳转到Recyc_off')
+  during TPT.regexp([Recyc_on==1][AirDistSts==AirDist_Defrost]?):
+    during TPT.trigger(TPT.risingEdge(AirDistSts==AirDist_Defrost),false,false):
+      TPT.assertAlways(Recyc_on==0,'满足en,跳转到Recyc_off')
+    otherwise:
+      TPT.assertAlways(Recyc_on==1,'不满足en,没有跳转到Recyc_off')  
+  during TPT.regexp([Recyc_on==0][RecycleAir_On(t)!=RecycleAir_On(t-@)]?):###后面这个是在整个时间t大于2s内找的
+    during[t>=@]:
+      during[RecycleAir_On(t)!=RecycleAir_On(t-@)]:
+        TPT.assertAlways(Recyc_on==1,'跳转到Recyc_on')
+      otherwise:
+        TPT.assertAlways(Recyc_on==0,'没有跳转到Recyc_on')
+  during TPT.regexp([Recyc_on==1][RecycleAir_On(t)!=RecycleAir_On(t-@)]?):
+    during [t>=@]:
+      during[RecycleAir_On(t)!=RecycleAir_On(t-@)]:
+        TPT.assertAlways(Recyc_on==0,'再次满足条件跳转到Recyc_off')
+      otherwise:
+        TPT.assertAlways(Recyc_on==1,'没有跳转到Recyc_off')]]></assesslet_script>
+ <rm-links>
+  <rm-link id="SPEC-3-1-1"/>
+  <rm-link id="SPEC-3-2-1"/>
+  <rm-link id="SPEC-3-2-2"/>
+  <rm-link id="SPEC-3-3-1"/>
+ </rm-links>
+</assesslet>

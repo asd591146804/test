@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessletgroup id="2"
+                name="Global Assesslets"
+                uuid="8a31e358-171e-4873-be46-80141058710f">
+ <ref path="8b92a0a4-a42c-4399-975e-7b239a721728"/>
+</assessletgroup>

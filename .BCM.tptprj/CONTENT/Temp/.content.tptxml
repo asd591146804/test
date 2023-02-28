@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testlet id="3"
+         mainGrp="16a2f038-7976-4e4a-887d-06cc21306a2e"
+         name="Temp"
+         posX="490"
+         posY="190"
+         uuid="4a2067cc-fa87-427d-a679-773ab53415ea">
+ <testlets/>
+ <ref path="VARIANTS"/>
+ <ref path="testlet.tptsettings"
+      weak="true"/>
+</testlet>

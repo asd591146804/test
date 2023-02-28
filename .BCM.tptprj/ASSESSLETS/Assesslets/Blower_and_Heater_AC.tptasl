@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assesslet hash-uptodate="false"
+           id="18"
+           name="Blower_and_Heater_AC"
+           no-selected-testcases="true"
+           section="ed1f4209-8e2d-4150-925c-6b4ce9cfaa89"
+           type="ScriptAssessletType"
+           uuid="0f6e4bd8-798e-4ee7-8570-214b49a1c532"
+           verbose="true">
+ <assesslet_script><![CDATA[########################################
+#V2.0
+#Created by Liyue,Polelink
+#2022/11/24
+#Liyue@polelink.com
+########################################
+
+
+###声明评估变量
+TempDiff=TPT.DoubleX()
+TempDiff(t):=SetPTemp-IntTemp_K
+absTempDiff=TPT.DoubleX()
+absTempDiff(t):=abs(SetPTemp-IntTemp_K)
+
+####Blower评估
+during [t<2*@]:
+  TPT.assertAlways(Blower_Speed_proportion==0)
+  TPT.assertAlways(HeaterAct==0)
+  TPT.assertAlways(ACAct==0)
+during [t>=2*@]:
+  during TPT.regexp([absTempDiff>0.5 and absTempDiff<203][absTempDiff==203]?[absTempDiff<=0.5 or absTempDiff>203]?):
+    during [t<@]:
+      TPT.assertAlways(Blower_Speed_proportion==0.2,'默认状态Blower_1')
+    during [t>=@]:
+      ###TPT.assertAlways(Req_Temp_change==absTempDiff) 就是一个local量
+      during TPT.regexp(^[(absTempDiff>0.5 and absTempDiff<=1.5) or (absTempDiff>=200 and absTempDiff<203)]):#一开始时候的条件  就在这里待着
+        TPT.assertAlways(Blower_Speed_proportion==0.2,'一开始在Blower_1')
+      during TPT.regexp([absTempDiff>22 and absTempDiff<200][absTempDiff>=20 and absTempDiff<=203]?): #and Blower_Speed_proportion != 1]:
+        TPT.assertAlways(Blower_Speed_proportion==1,'跳转或保持在Blower_5')
+      otherwise:
+        during TPT.regexp([absTempDiff>17 and absTempDiff<20][absTempDiff>=15 and absTempDiff<=22]?):
+          TPT.assertAlways(Blower_Speed_proportion==0.8,'跳转或保持在Blower_4')
+        otherwise:
+          during TPT.regexp([absTempDiff>12 and absTempDiff<15][absTempDiff>=10 and absTempDiff<=17]?):
+            TPT.assertAlways(Blower_Speed_proportion==0.6,'跳转或保持在Blower_3')
+          otherwise:
+            during TPT.regexp([absTempDiff>7 and absTempDiff<10][absTempDiff>=5 and absTempDiff<=12]?):
+              TPT.assertAlways(Blower_Speed_proportion==0.4,'跳转或保持在Blower_2')
+            otherwise:
+              during TPT.regexp([absTempDiff>1.5 and absTempDiff<5][absTempDiff>0.5 and absTempDiff<=7]?):
+                TPT.assertAlways(Blower_Speed_proportion==0.2,'跳转或保持在Blower_1')
+    during [absTempDiff<=0.5 or absTempDiff>203]:
+      TPT.assertAlways(Blower_Speed_proportion==0,'跳转到Blower_off')
+    otherwise:
+      TPT.assertAlways(Blower_Speed_proportion!=0,'没有跳转到Blower_off')
+  otherwise:
+    TPT.assertAlways(Blower_Speed_proportion==0,'没有跳转到Blower_on')
+  
+    
+       
+####Heater_AC评估
+  during TPT.regexp([HeaterAct==0 and ACAct==false][TempDiff>0.5]?):
+    during [TempDiff>0.5]:
+      TPT.assertAlways(HeaterAct==1,'跳转到HeaterAct')
+    otherwise:
+       TPT.assertAlways(HeaterAct!=1,'没有跳转到HeaterAct')
+  during TPT.regexp([HeaterAct==0 and ACAct==false][TempDiff<-0.5]?):
+    during [TempDiff<-0.5]:
+       TPT.assertAlways(ACAct==1,'跳转到ACAct')
+    otherwise:
+       TPT.assertAlways(ACAct!=1,'没有跳转到ACAct')
+  during TPT.regexp([HeaterAct==1][TempDiff<=0.5]?):
+    during [TempDiff<=0.5]:
+       TPT.assertAlways((HeaterAct==0) and ACAct==0,'从HeaterAct跳转到H_offAC_off')
+    otherwise:
+       TPT.assertAlways(HeaterAct==1,'没有从HeaterAct跳转到H_offAC_off')
+  during TPT.regexp([ACAct==1][TempDiff>=-0.5]?):
+    during [TempDiff>=-0.5]:
+      TPT.assertAlways((HeaterAct==0) and ACAct==0,'从ACAct跳转到H_offAC_off')
+    otherwise:
+       TPT.assertAlways(ACAct==1,'没有从ACAct跳转到H_offAC_off')
+    
+        
+        ]]></assesslet_script>
+ <rm-links>
+  <rm-link id="SPEC-1-1-1"/>
+  <rm-link id="SPEC-1-2-1"/>
+  <rm-link id="SPEC-1-2-2"/>
+  <rm-link id="SPEC-1-3-1"/>
+  <rm-link id="SPEC-1-4-1"/>
+  <rm-link id="SPEC-4-3-1"/>
+  <rm-link id="SPEC-4-3-2"/>
+  <rm-link id="SPEC-4-4-1"/>
+ </rm-links>
+</assesslet>

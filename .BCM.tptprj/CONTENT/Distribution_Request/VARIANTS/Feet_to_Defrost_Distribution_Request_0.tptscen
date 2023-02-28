@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario_ts id="38"
+             name="Feet_to_Defrost_Distribution_Request_0"
+             uuid="e4f4abbd-df1d-4507-91f0-f0b573e08a42">
+ <ts_setchannel channel="Distribution_Request"
+                continuous="true"
+                source="0"/>
+</scenario_ts>

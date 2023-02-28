@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirementsets>
+ <requirementset condition="REQUIREMENT.getAttribute(&quot;开关&quot;)==&quot;on&quot;&#xA;REQUIREMENT.getAttribute(&quot;A&quot;)==&quot;2&quot;"
+                 name="Requirement Set"
+                 uuid="7d2d4843-c0c6-419f-81ad-c9272519cc87"/>
+ <requirementset condition=""
+                 name="Requirement Set_001"
+                 uuid="380dfb85-6461-46fe-ade8-79d5dd5125a6"/>
+</requirementsets>

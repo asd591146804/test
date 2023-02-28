@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testset all-testcases-selected="false"
+         name="Test Set_002"
+         uuid="6403a67c-e8c1-4587-b940-53d1fbbbee8e">
+ <ts_selected uuid-ref="25bf4009-963c-4b1d-adff-13a6d4a5f29a"/>
+ <ts_selected uuid-ref="67866642-2066-4374-a453-93de699f9c3d"/>
+ <ts_selected uuid-ref="89eca589-6f27-4454-8baa-8b45fa7e3231"/>
+ <ts_selected uuid-ref="8d65e51e-8f19-4fd2-a2e4-a02ff7890ad8"/>
+ <ts_selected uuid-ref="94e9bf5c-d773-4c3c-893f-7379ddba76a5"/>
+ <ts_selected uuid-ref="aa12de7b-da1d-4aa1-9420-1d446f13fb23"/>
+ <ts_selected uuid-ref="aad5e2e5-7de6-4060-b424-d52838c2a504"/>
+ <ts_selected uuid-ref="c38b3d6b-e50a-48fb-808e-5c4b616684f8"/>
+ <ts_selected uuid-ref="ce23a93c-5a81-4977-bccb-8079f80afe9e"/>
+</testset>

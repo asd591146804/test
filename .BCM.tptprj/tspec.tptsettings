@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tspec-settings execconfig="c092da31-7c5c-4a6e-b090-75e2f00431b3"
+                platform="ac5c8ba3-6b7d-4a52-8dcf-f240d08df5eb">
+ <selection>
+  <expanded-scen path="89eca589-6f27-4454-8baa-8b45fa7e3231"
+                 testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"/>
+  <expanded-scen path="5b72144c-d6ed-47c4-8b5f-99aaa18a34dd"
+                 testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"/>
+  <expanded-scen path="8d65e51e-8f19-4fd2-a2e4-a02ff7890ad8"
+                 testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"/>
+  <expanded-scen path="e677ef7e-89b2-436b-aabb-3293fff9d37c"
+                 testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"/>
+  <expanded-scen path="383a1e68-8f06-4af9-a887-8af0ac8ead6d"
+                 testlet="5b849c8a-786b-45bb-b78c-4ec6151c4a8e"/>
+  <expanded-aslt path="a349f03b-bae6-46c4-b8d9-48dc45cb6288"/>
+ </selection>
+</tspec-settings>

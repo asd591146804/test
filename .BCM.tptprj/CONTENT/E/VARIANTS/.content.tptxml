@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario_group id="58"
+                name="Variants"
+                uuid="d39dc88f-076d-40c0-9655-ae40a984d7db">
+ <ref path="f14f4fbf-297c-43bb-92c6-aedd8ff80677"/>
+ <ref path="118e1019-b1d5-4f78-a3e2-4ca5e15bc6b7"/>
+</scenario_group>

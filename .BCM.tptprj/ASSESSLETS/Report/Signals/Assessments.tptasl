@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assesslet all-testcases-selected="true"
+           hash-uptodate="false"
+           id="12"
+           name="Assessments"
+           section="46db8bff-3144-4b84-9d65-eb3f6452096b"
+           type="SignalTableReportAssessletType"
+           uuid="24a26613-6682-4aab-9a68-7bd9542aa9a1">
+ <assesslet_signalTableReport>
+  <reportAssessletFilter_signalTable showAssessmentVariables="true"
+                                     showScriptVariables="true"/>
+ </assesslet_signalTableReport>
+</assesslet>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assesslet all-testcases-selected="true"
+           hash-uptodate="false"
+           id="15"
+           name="Measurements"
+           section="46db8bff-3144-4b84-9d65-eb3f6452096b"
+           type="SignalTableReportAssessletType"
+           uuid="3f20f36f-a88d-4859-87d8-8af5217c6b18">
+ <assesslet_signalTableReport>
+  <reportAssessletFilter_signalTable showMeasurements="true"/>
+ </assesslet_signalTableReport>
+</assesslet>

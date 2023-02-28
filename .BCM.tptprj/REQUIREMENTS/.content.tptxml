@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirements>
+ <ref path="requirement_sets.tptreq"/>
+ <ref path="requirements_config.tptsettings"
+      weak="true"/>
+ <rm-modules>
+  <ref path="requirements_module_.tptreq"/>
+ </rm-modules>
+</requirements>

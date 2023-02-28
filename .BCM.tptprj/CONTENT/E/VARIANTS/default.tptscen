@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario_ts id="59"
+             name="default"
+             uuid="f14f4fbf-297c-43bb-92c6-aedd8ff80677">
+ <ts_setchannel channel="E"
+                continuous="true"
+                source="((t / 0.02 + 1E-9 - floor(t / 0.02 + 1E-9)) &gt; 0.5) ? (uint8)1 : (uint8)0"/>
+ <ts_wait time="8s"/>
+</scenario_ts>

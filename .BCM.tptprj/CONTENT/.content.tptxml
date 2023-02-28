@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toplevel id="0"
+          isvisible="false"
+          mainGrp="84eefce7-5c4d-4b90-9e89-543ced78c806"
+          name="main"
+          posX="0"
+          posY="0"
+          uuid="5b849c8a-786b-45bb-b78c-4ec6151c4a8e">
+ <testlets>
+  <ref path="4a2067cc-fa87-427d-a679-773ab53415ea"/>
+  <ref path="565043b6-03e9-43c8-acbe-60d9315315a1"/>
+  <ref path="73ea3d50-be2e-4884-8ac0-ba2f23974f7f"/>
+  <ref path="a65e055f-3d29-48ea-8f78-2c5d99f1ed23"/>
+  <ref path="a8cebdfd-bc12-4ac7-ba12-9aee9c1b3166"/>
+  <ref path="d03fb29b-3a22-4475-8e12-a7a6218589fd"/>
+  <ref path="e7f4ea1a-19f8-42b8-bd75-e80c58a94487"/>
+ </testlets>
+ <junction name="junc_002"
+           posX="80"
+           posY="310"
+           uuid="9a474f26-73e3-4dcb-aba2-2a6d8ccb2c51"/>
+ <junction name="junc_001"
+           posX="80"
+           posY="190"
+           uuid="d3d54053-9abf-4c9b-af50-0866904eb609"/>
+ <junction name="junc_003"
+           posX="80"
+           posY="450"
+           uuid="e68244f8-9c1f-4dd0-b61f-69b4934af55b"/>
+ <junction name="junc_004"
+           posX="80"
+           posY="70"
+           uuid="e94698ef-97ae-48d3-bcdf-a25a0b0c49a1"/>
+ <final name="final_004"
+        posX="750"
+        posY="70"
+        uuid="1fe73ad9-5b46-42b0-b72d-98a61ba07c4e"/>
+ <final name="final_002"
+        posX="810"
+        posY="310"
+        uuid="424dbe53-787f-415b-858c-266629211b6b"/>
+ <final name="final_001"
+        posX="800"
+        posY="190"
+        uuid="b90ad2f6-3922-4cca-ac12-df666528e167"/>
+ <final name="final_003"
+        posX="810"
+        posY="450"
+        uuid="c35169c0-d8b3-4e6b-b50e-8d9efaa56ae8"/>
+ <transitions>
+  <transition from="565043b6-03e9-43c8-acbe-60d9315315a1"
+              name="trans_002"
+              namePosX="305"
+              namePosY="180"
+              to="4a2067cc-fa87-427d-a679-773ab53415ea"
+              uuid="081bc79d-5b88-4cde-adb0-a56027c0ceee">
+   <transspec condition="t&gt;=5s"
+              name="t&gt;=5s"
+              uuid="ac54ddc2-c494-40bf-94b2-8350bf399f8f"/>
+  </transition>
+  <transition from="e94698ef-97ae-48d3-bcdf-a25a0b0c49a1"
+              name="trans_010"
+              namePosX="222"
+              namePosY="70"
+              to="73ea3d50-be2e-4884-8ac0-ba2f23974f7f"
+              uuid="194ef934-0e64-4c67-a599-ea03db2812f6">
+   <transspec name="default"
+              uuid="5b89c897-c3ba-498b-86b3-ee53eb70d329"/>
+  </transition>
+  <transition from="73ea3d50-be2e-4884-8ac0-ba2f23974f7f"
+              name="trans_011"
+              namePosX="580"
+              namePosY="60"
+              to="1fe73ad9-5b46-42b0-b72d-98a61ba07c4e"
+              uuid="24a006aa-b842-4751-9406-68405a3992f3">
+   <transspec condition="t==8s"
+              name="t==8s"
+              uuid="586c265f-0132-4837-964a-75c1191bb6c9"/>
+  </transition>
+  <transition from="e68244f8-9c1f-4dd0-b61f-69b4934af55b"
+              name="trans_007"
+              namePosX="123"
+              namePosY="451"
+              to="e7f4ea1a-19f8-42b8-bd75-e80c58a94487"
+              uuid="2c1007c6-b5f9-41f8-a9dd-b251a9d6591e">
+   <transspec name="default"
+              uuid="30770662-ed97-4e1f-b5c8-cb2610290158"/>
+  </transition>
+  <transition from="e7f4ea1a-19f8-42b8-bd75-e80c58a94487"
+              name="trans_008"
+              namePosX="305"
+              namePosY="440"
+              to="a65e055f-3d29-48ea-8f78-2c5d99f1ed23"
+              uuid="38c0a6f3-d27d-4e42-ab16-3bf88e584b55">
+   <transspec condition="t&gt;=5s"
+              name="t&gt;=5s"
+              uuid="1c8a2fc5-9937-4b88-8fce-90e8d7554a45"/>
+  </transition>
+  <transition from="9a474f26-73e3-4dcb-aba2-2a6d8ccb2c51"
+              name="trans_004"
+              namePosX="123"
+              namePosY="311"
+              to="a8cebdfd-bc12-4ac7-ba12-9aee9c1b3166"
+              uuid="83dfb9b0-322a-4e28-8e99-2383e1e040ab">
+   <transspec name="default"
+              uuid="39f20425-c61a-453b-9886-4322fa6d15f1"/>
+  </transition>
+  <transition from="d3d54053-9abf-4c9b-af50-0866904eb609"
+              name="trans_001"
+              namePosX="137"
+              namePosY="190"
+              to="565043b6-03e9-43c8-acbe-60d9315315a1"
+              uuid="990b2944-a0c9-4020-a126-3846e431a224">
+   <transspec name="default"
+              uuid="98429d90-ae2a-47ce-aef9-29eb4c2a8188"/>
+  </transition>
+  <transition from="a8cebdfd-bc12-4ac7-ba12-9aee9c1b3166"
+              name="trans_005"
+              namePosX="295"
+              namePosY="300"
+              to="d03fb29b-3a22-4475-8e12-a7a6218589fd"
+              uuid="c1306ee4-cdc0-410a-8a3d-eab47e0110b9">
+   <transspec condition="t&gt;=5s"
+              name="t&gt;=5s"
+              uuid="5e9b1fdb-3549-4bfa-bb8e-0f815e174ec9"/>
+  </transition>
+  <transition from="4a2067cc-fa87-427d-a679-773ab53415ea"
+              name="trans_003"
+              namePosX="705"
+              namePosY="180"
+              to="b90ad2f6-3922-4cca-ac12-df666528e167"
+              uuid="c4106112-1fb9-4cd7-97c4-94be08c63b8c">
+   <transspec condition="t==3s"
+              name="t==3s"
+              uuid="167e98b2-a9b9-4140-81b4-d67fd910f878"/>
+  </transition>
+  <transition from="a65e055f-3d29-48ea-8f78-2c5d99f1ed23"
+              name="trans_009"
+              namePosX="735"
+              namePosY="440"
+              to="c35169c0-d8b3-4e6b-b50e-8d9efaa56ae8"
+              uuid="e7e48728-1711-47eb-af09-03b327247327">
+   <transspec condition="t==3s"
+              name="t==3s"
+              uuid="f70548ef-8674-490d-9698-212acd3cca8d"/>
+  </transition>
+  <transition from="d03fb29b-3a22-4475-8e12-a7a6218589fd"
+              name="trans_006"
+              namePosX="710"
+              namePosY="300"
+              to="424dbe53-787f-415b-858c-266629211b6b"
+              uuid="f47ba3a4-3aab-4169-97bb-1549c63a5f1e">
+   <transspec condition="t==3s"
+              name="t==3s"
+              uuid="6efac747-9226-4fc0-bc0a-93da4fb5be4c"/>
+  </transition>
+ </transitions>
+ <line posY="140"/>
+ <line posY="260"/>
+ <line posY="379"/>
+ <ref path="\TESTCASES"/>
+ <ref path="toplevel.tptsettings"
+      weak="true"/>
+</toplevel>

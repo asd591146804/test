@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration indent="true"
+               link-module-path="TPT Test Links"
+               relevant-issues="0"
+               testcase-module-path="TPT Test Cases">
+ <requirements-table-settings sortOrders="a:开关,1,"
+                              visibleColumnIdentifiers="s:0,s:1,s:2,s:3,s:4,s:5,s:6,s:7,s:8,s:9,a:A,a:开关,"
+                              visibleColumnWidth="45,86,260,65,79,80,58,50,92,56,75,75,"/>
+ <attribute-key name="0"
+                type="field"/>
+ <attribute-key name="1"
+                type="field"/>
+ <attribute-key name="2"
+                type="field"/>
+ <attribute-key name="3"
+                type="field"/>
+ <attribute-key name="default value"
+                type="attribute"/>
+ <attribute-key name="A"
+                type="attribute"/>
+ <attribute-key name="开关"
+                type="attribute"/>
+</configuration>

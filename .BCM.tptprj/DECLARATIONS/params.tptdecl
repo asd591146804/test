@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parameters>
+ <parameter exchangeMode="exchange"
+            name="AirDist_Defrost"
+            type="uint8"
+            value="3"/>
+ <parameter exchangeMode="exchange"
+            name="AirDist_Face"
+            type="uint8"
+            value="1"/>
+ <parameter exchangeMode="exchange"
+            name="AirDist_Feet"
+            type="uint8"
+            value="2"/>
+</parameters>

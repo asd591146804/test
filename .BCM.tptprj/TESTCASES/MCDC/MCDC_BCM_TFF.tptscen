@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario_ts hash-uptodate="false,false,false"
+             id="57"
+             name="MCDC_BCM_TFF"
+             uuid="25bf4009-963c-4b1d-adff-13a6d4a5f29a">
+ <ts_parallel/>
+ <ts_setchannel channel="E"
+                continuous="true"
+                source="((t / 0.02 + 1E-9 - floor(t / 0.02 + 1E-9)) &gt; 0.5) ? (uint8)1 : (uint8)0"/>
+ <ts_wait time="1s"/>
+ <ts_setchannel channel="E"
+                continuous="true"
+                source="1"/>
+ <ts_wait time="0.02s"/>
+ <ts_setchannel channel="E"
+                continuous="true"
+                source="((t / 0.02 + 1E-9 - floor(t / 0.02 + 1E-9)) &gt; 0.5) ? (uint8)1 : (uint8)0"/>
+ <ts_parallel/>
+ <ts_setchannel channel="Distribution_Request"
+                continuous="true"
+                source="1"/>
+ <ts_compare actions="Equal"
+             channel="AirDistSts"
+             source="0"
+             tolerance="0"
+             type="always"/>
+ <ts_wait time="@"/>
+ <ts_compare actions="Equal"
+             channel="AirDistSts"
+             source="1"
+             tolerance="0"
+             type="always"/>
+ <ts_wait time="1s-@"/>
+ <ts_setchannel channel="Distribution_Request"
+                continuous="true"
+                source="0"/>
+ <ts_compare actions="Equal"
+             channel="AirDistSts"
+             source="2"
+             tolerance="0"
+             type="always"/>
+ <ts_parallel/>
+ <ts_setchannel channel="RecycleAir_On"
+                continuous="true"
+                source="0"/>
+ <ts_compare actions="Equal"
+             channel="Recyc_on"
+             source="0"
+             tolerance="0"
+             type="always"/>
+ <ts_wait time="@"/>
+ <ts_compare actions="Equal"
+             channel="Recyc_on"
+             source="1"
+             tolerance="0"
+             type="always"/>
+ <ts_wait time="3s+@"/>
+ <ts_parallel/>
+ <ts_setchannel channel="SetPTemp"
+                continuous="true"
+                source="37"/>
+ <ts_setchannel channel="IntTemp_K"
+                continuous="true"
+                source="34"/>
+ <ts_compare actions="Equal"
+             channel="Blower_Speed_proportion"
+             source="0"
+             tolerance="0"
+             type="always"/>
+ <ts_wait time="2*@"/>
+ <ts_compare actions="Equal"
+             channel="Blower_Speed_proportion"
+             source="0.2"
+             tolerance="0"
+             type="always"/>
+ <ts_wait time="3s"/>
+ <ts_endif/>
+</scenario_ts>

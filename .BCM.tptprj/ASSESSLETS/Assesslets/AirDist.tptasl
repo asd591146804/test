@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assesslet all-testcases-selected="false"
+           hash-uptodate="false"
+           id="21"
+           name="AirDist"
+           section="ed1f4209-8e2d-4150-925c-6b4ce9cfaa89"
+           type="ScriptAssessletType"
+           uuid="9fb2c008-bd6d-4ec0-a6f9-0849552045fa"
+           verbose="true">
+ <assesslet-selected-testcase uuid-ref="31f419b0-ad9f-42b9-8c06-ad6f26f9f1a1"/>
+ <assesslet-selected-testcase uuid-ref="383a1e68-8f06-4af9-a887-8af0ac8ead6d"/>
+ <assesslet-selected-testcase uuid-ref="b06a5530-709a-4247-b827-d3f1cd290856"/>
+ <assesslet-selected-testcase uuid-ref="c393c144-639c-4df0-a959-35a5822738c0"/>
+ <assesslet-selected-testcase uuid-ref="e6f0404a-e1ba-4b4c-bdbb-214da6890227"/>
+ <assesslet-selected-testcase uuid-ref="ed6361af-a649-412b-abdd-55dd06b3f0a5"/>
+ <assesslet_script><![CDATA[########################################
+#V2.0
+#Created by Liyue,Polelink
+#2022/11/24
+#Liyue@polelink.com
+########################################
+
+
+during [t<@]:
+  TPT.assertAlways(AirDistSts==0)
+during [t>=@ and t<2*@]:
+  TPT.assertAlways(AirDistSts==AirDist_Face)
+during [t>=2*@]:
+##因为后面的条件所以把跳转到的状态也包含进去了
+  during TPT.regexp(^[AirDistSts==AirDist_Face][Distribution_Request(t)!=Distribution_Request(t-@)]?):###时间是满足后面的转换条件时总共的时间  后面只有一个步长
+      during TPT.trigger(Distribution_Request(t)!=Distribution_Request(t-@),false,false):
+        TPT.assertAlways(AirDistSts==AirDist_Feet,'一开始满足条件跳转到Feet')
+      otherwise:
+        TPT.assertAlways(AirDistSts==AirDist_Face,'一开始不满足条件没有跳转到Feet')
+  during TPT.regexp([AirDistSts==AirDist_Feet][Distribution_Request(t)!=Distribution_Request(t-@)]?):
+    during[t>=@]:###局部时间 避免筛到前面的时间 因为满足这个条件的 从face到feet也满足
+      during TPT.trigger(Distribution_Request(t)!=Distribution_Request(t-@),false,false):
+        TPT.assertAlways(AirDistSts==AirDist_Defrost,'跳转到Defrost')
+      otherwise:
+        TPT.assertAlways(AirDistSts==AirDist_Feet,'没有跳转到Defrost')
+  during TPT.regexp([AirDistSts==AirDist_Defrost][Distribution_Request(t)!=Distribution_Request(t-@)]?):
+    during[t>=@]:
+      during [Distribution_Request(t)!=Distribution_Request(t-@)]:
+        TPT.assertAlways(AirDistSts==AirDist_Face,'跳转到Face')
+      otherwise:
+        TPT.assertAlways(AirDistSts==AirDist_Defrost,'没有跳转到Face')
+  during TPT.regexp([AirDistSts==AirDist_Face][Distribution_Request(t)!=Distribution_Request(t-@)]?):###时间是满足后面的转换条件时总共的时间  后面只有一个步长
+    during[t>=@]:
+      during TPT.trigger(Distribution_Request(t)!=Distribution_Request(t-@),false,false):
+        TPT.assertAlways(AirDistSts==AirDist_Feet,'再次满足条件跳转到Feet')
+      otherwise:
+        TPT.assertAlways(AirDistSts==AirDist_Face,'没有跳转到Feet')
+      ]]></assesslet_script>
+ <rm-links>
+  <rm-link id="SPEC-2-1-1"/>
+  <rm-link id="SPEC-2-2-1"/>
+  <rm-link id="SPEC-2-3-1"/>
+  <rm-link id="SPEC-2-4-1"/>
+ </rm-links>
+</assesslet>

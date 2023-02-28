@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testset all-testcases-selected="false"
+         name="Test Set"
+         uuid="41d75593-b2a9-4753-b4ba-e8171654532c">
+ <ts_selected uuid-ref="25bf4009-963c-4b1d-adff-13a6d4a5f29a"/>
+ <ts_selected uuid-ref="89eca589-6f27-4454-8baa-8b45fa7e3231"/>
+ <ts_selected uuid-ref="94e9bf5c-d773-4c3c-893f-7379ddba76a5"/>
+ <ts_selected uuid-ref="c38b3d6b-e50a-48fb-808e-5c4b616684f8"/>
+</testset>

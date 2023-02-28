@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testlet id="1"
+         mainGrp="612a4ce9-31eb-4956-a3e3-d8d558c6c261"
+         name="Blower&amp;Heater_AC"
+         posX="190"
+         posY="190"
+         uuid="565043b6-03e9-43c8-acbe-60d9315315a1">
+ <testlets/>
+ <ref path="VARIANTS"/>
+ <ref path="testlet.tptsettings"
+      weak="true"/>
+</testlet>

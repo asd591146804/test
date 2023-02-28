@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testlet id="5"
+         mainGrp="a25caaf3-7c12-424b-a9ad-316be6bf0e09"
+         name="Distribution_Request"
+         posX="500"
+         posY="310"
+         uuid="d03fb29b-3a22-4475-8e12-a7a6218589fd">
+ <testlets/>
+ <ref path="VARIANTS"/>
+ <ref path="testlet.tptsettings"
+      weak="true"/>
+</testlet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessletgroup id="0"
+                name="Assesslets"
+                uuid="a349f03b-bae6-46c4-b8d9-48dc45cb6288">
+ <ref path="44989cb0-7c48-493c-8aa1-0239ab0c3024"/>
+ <ref path="0f6e4bd8-798e-4ee7-8570-214b49a1c532"/>
+ <ref path="9fb2c008-bd6d-4ec0-a6f9-0849552045fa"/>
+ <ref path="877301cc-4c9a-4758-bf4a-9505eebdf84e"/>
+ <ref path="79f0caf5-21f5-44ff-a19a-0128bc6438b9"/>
+</assessletgroup>

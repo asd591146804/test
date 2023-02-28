@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario_ts id="34"
+             name="Feet"
+             uuid="b2f01cd7-f55f-4166-8bc9-25782f29285e">
+ <ts_embeddedsignal channel="Distribution_Request"
+                    data_type="double"
+                    endtime="10000001us"
+                    startTime="0us"
+                    time="0us,1s,10s"
+                    value="eJxjYEAGH+xhNAANzgJf"/>
+</scenario_ts>

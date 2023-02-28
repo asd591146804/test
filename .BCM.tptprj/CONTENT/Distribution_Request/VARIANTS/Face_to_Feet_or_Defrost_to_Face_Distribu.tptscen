@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario_ts id="13"
+             name="Face_to_Feet_or_Defrost_to_Face_Distribution_Request_1"
+             uuid="a42f4bee-9b44-48fa-a033-cd2e4ebd9cbb">
+ <ts_setchannel channel="Distribution_Request"
+                continuous="true"
+                source="1"/>
+</scenario_ts>

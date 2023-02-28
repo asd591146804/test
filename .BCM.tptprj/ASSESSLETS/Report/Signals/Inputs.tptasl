@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assesslet all-testcases-selected="true"
+           hash-uptodate="false"
+           id="13"
+           name="Inputs"
+           section="46db8bff-3144-4b84-9d65-eb3f6452096b"
+           type="SignalTableReportAssessletType"
+           uuid="810a0aef-e3b0-4fcf-9812-a9696a993e31">
+ <assesslet_signalTableReport isShowInitialValues="true">
+  <reportAssessletFilter_signalTable showInputs="true"/>
+ </assesslet_signalTableReport>
+</assesslet>

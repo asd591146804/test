@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario_group id="65"
+                name="Blower_and_Heater_AC"
+                uuid="e677ef7e-89b2-436b-aabb-3293fff9d37c">
+ <ref path="cefacf27-b163-46d6-b69b-1939206ce434"/>
+ <ref path="eec16c7f-c460-4ac1-9fc0-cdddc3bc70a5"/>
+ <ref path="c1c062a5-4907-4a17-abb7-9619bad306eb"/>
+ <ref path="e7e04d23-1e94-437c-90d9-d9bab72e0466"/>
+ <ref path="ff2d0394-eff6-412c-ae66-837651a1a938"/>
+</scenario_group>

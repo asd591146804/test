@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario_ts id="22"
+             name="Blower_3"
+             uuid="4fa76649-9da0-4c67-a993-f6f312cdfd50">
+ <ts_setchannel channel="SetPTemp"
+                continuous="true"
+                source="24"/>
+ <ts_setchannel channel="IntTemp_K"
+                continuous="true"
+                source="37"/>
+</scenario_ts>

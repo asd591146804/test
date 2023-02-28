@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario_group id="2"
+                name="Variants"
+                uuid="612a4ce9-31eb-4956-a3e3-d8d558c6c261">
+ <ref path="27a985fe-e9a1-4a0c-b04b-05720b8b80c0"/>
+ <ref path="9bd9834c-16ca-4877-94c7-dfb3ba9f7817"/>
+ <ref path="ea16222a-98a9-4042-b710-28d78bda0474"/>
+ <ref path="4fa76649-9da0-4c67-a993-f6f312cdfd50"/>
+ <ref path="77d06c7a-4885-432c-a29a-3b61a1740080"/>
+ <ref path="f9f7308b-2e43-4523-a123-80171e237114"/>
+</scenario_group>

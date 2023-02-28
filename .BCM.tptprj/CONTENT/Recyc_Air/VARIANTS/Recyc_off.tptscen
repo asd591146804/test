@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario_ts id="36"
+             name="Recyc_off"
+             uuid="29deb552-06ec-43bf-9c45-7dd192ea3c76">
+ <ts_embeddedsignal channel="RecycleAir_On"
+                    data_type="double"
+                    endtime="10000001us"
+                    startTime="0us"
+                    time="0us,1s,10s"
+                    value="eJxjYEAGH+xhNAANzgJf"/>
+</scenario_ts>

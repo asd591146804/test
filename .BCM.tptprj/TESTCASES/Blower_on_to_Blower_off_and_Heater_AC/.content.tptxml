@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario_group id="63"
+                name="Blower_on_to_Blower_off_and_Heater_AC"
+                uuid="5b72144c-d6ed-47c4-8b5f-99aaa18a34dd">
+ <ref path="8c4449ca-eaa7-4758-901e-7603dcab8c12"/>
+ <ref path="c393c144-639c-4df0-a959-35a5822738c0"/>
+ <ref path="94c1de8f-682b-4f35-b389-ab62f258c9a0"/>
+ <ref path="5e010bf8-6f4d-44c2-9218-764c421ed2dc"/>
+ <ref path="acb7d5ac-24fc-4fcb-8749-4e3c71073f6d"/>
+ <ref path="14957cb1-0a4e-4b99-80d8-496975ea839b"/>
+</scenario_group>
