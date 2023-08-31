@@ -31,7 +31,7 @@ during [t>=2*@]:
     during [t<@]:
       TPT.assertAlways(Blower_Speed_proportion==0.2,'默认状态Blower_1')
     during [t>=@]:
-      ###TPT.assertAlways(Req_Temp_change==absTempDiff) 就是一个local量
+      TPT.assertAlways(Req_Temp_change==absTempDiff) 就是一个local量
       during TPT.regexp(^[(absTempDiff>0.5 and absTempDiff<=1.5) or (absTempDiff>=200 and absTempDiff<203)]):#一开始时候的条件  就在这里待着
         TPT.assertAlways(Blower_Speed_proportion==0.2,'一开始在Blower_1')
       during TPT.regexp([absTempDiff>22 and absTempDiff<200][absTempDiff>=20 and absTempDiff<=203]?): #and Blower_Speed_proportion != 1]:
